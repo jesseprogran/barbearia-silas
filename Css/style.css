@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.home {
+  position: relative;
+  background-size: cover;
+  background-image: url(../images/foto.jpeg);
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.logo {
+  height: 100px;
+}

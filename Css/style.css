@@ -53,3 +53,86 @@ a:hover {
   color: rgb(252, 249, 248);
   
 }
+
+.home .banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 270px;
+  width: 770px;
+  margin-left: -385px;
+  margin-top: -75px;
+
+  color: white;
+  text-align: center;
+}
+
+.home .banner h1 {
+  margin-top: -150px;
+  font-size: 120px;
+  font-weight: bolder;
+}
+
+.home .banner span {
+  display: block;
+  margin-top: 30px;
+}
+
+.home .banner .slogan {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 20px;
+  margin-bottom: 40px;
+  
+}
+
+img {
+  width: 70px;
+}
+.maquina {
+  width: 27px;
+}
+
+.bigode2 {
+  margin-top: 10px;
+  width: 180px;
+}
+
+.services {
+  padding: 100px 0;
+  text-align: center;
+  background-image: url(https://conteudo.solutudo.com.br/wp-content/uploads/2020/01/BARBEARIA-ARACAJU-BARBEIRO-MESTRE.png);
+}
+
+.services h2 {
+  color: rgb(183, 178, 175);
+  font-weight: 800;
+  font-size: 70px;
+}
+
+.services .boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+}
+
+.services .box {
+  border: 3px solid #917758;
+  padding: 50px 40px;
+  margin: 10px;
+  border-radius: 40px;
+  box-shadow: 0 5px 10px 20px rgb(239, 122, 79);
+}
+
+.services .box h4 {
+  color: rgb(183, 178, 175);
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.services .box p {
+  color: white;
+  margin-top: 20px;
+  font-size: 25px;
+  line-height: 45px;
+}

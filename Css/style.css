@@ -136,3 +136,45 @@ img {
   font-size: 25px;
   line-height:45px;
 }
+
+.galeria {
+  padding: 100px 0;
+  background-color: rgb(205, 127, 99);
+}
+
+.galeria h2 {
+  color: rgb(183, 178, 175);
+  font-weight: 700;
+  font-size: 70px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.bigode3 {
+
+  width: 200px;
+}
+
+
+.galeria img {
+  margin: 0 auto;
+  display: block;
+}
+
+.galeria .galeria-principal {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 30px auto;
+}
+
+.galeria .galeria-principal div {
+  border: 10px solid black;
+  box-shadow: 10px 20px 3px 0   rgb(203, 203, 216) ;
+  margin: 17px auto;
+  width: 33%;
+  border-radius: 20px;
+}
+
+.galeria .galeria-principal div img {
+  width: 100%;
+}

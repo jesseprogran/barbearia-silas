@@ -10,9 +10,8 @@
   height: 100px;
   border: 3px solid white;
   border-radius: 50%;
-  box-shadow: 0 20px 3px 0   rgb(229, 229, 236) ;
+  box-shadow: 0 20px 3px 0 rgb(229, 229, 236);
 }
-
 
 .home {
   position: relative;
@@ -29,8 +28,8 @@
 }
 .nav {
   display: flex;
-  justify-content:center;
-} 
+  justify-content: center;
+}
 
 .nav ul li {
   display: flex;
@@ -55,7 +54,6 @@ a {
 a:hover {
   display: block;
   color: rgb(252, 249, 248);
-  
 }
 
 .home .banner {
@@ -87,20 +85,17 @@ a:hover {
   letter-spacing: 3px;
   font-size: 20px;
   margin-bottom: 40px;
-  
 }
 
 img {
   width: 70px;
 }
-  
 
 /***** SERVIÇOS *****/
 
-
 .services {
   display: flex;
-  overflow:hidden;
+  overflow: hidden;
   padding: 40px 0;
   text-align: center;
   background-image: url(https://conteudo.solutudo.com.br/wp-content/uploads/2020/01/BARBEARIA-ARACAJU-BARBEIRO-MESTRE.png);
@@ -144,7 +139,7 @@ img {
   color: white;
   margin-top: 20px;
   font-size: 25px;
-  line-height:45px;
+  line-height: 45px;
 }
 
 .galeria {
@@ -161,10 +156,8 @@ img {
 }
 
 .bigode3 {
-
   width: 200px;
 }
-
 
 .galeria img {
   margin: 0 auto;
@@ -179,7 +172,7 @@ img {
 
 .galeria .galeria-principal div {
   border: 10px solid black;
-  box-shadow: 10px 20px 3px 0   rgb(203, 203, 216) ;
+  box-shadow: 10px 20px 3px 0 rgb(203, 203, 216);
   margin: 17px auto;
   width: 33%;
   border-radius: 20px;
@@ -193,7 +186,7 @@ img {
 
 .agendamento {
   padding: 100px 0;
-  background-color: rgb(246, 194, 177)
+  background-color: rgb(246, 194, 177);
 }
 
 .agendamento h2 {
@@ -223,8 +216,7 @@ img {
   margin-left: 50px;
 }
 
-
-.agendamento  label {
+.agendamento label {
   display: block;
   color: rgb(218, 98, 28);
   font-size: 15px;
@@ -259,7 +251,6 @@ textarea {
   font-weight: bold;
   border-radius: 4px;
   text-transform: uppercase;
-
 }
 
 .agendamento button:hover {
@@ -269,21 +260,20 @@ textarea {
 
 /**** RESPONSIVIDADE *****/
 
-
-@media (max-width:800px) {
+@media (max-width: 800px) {
   .nav {
     display: none;
   }
 }
 
-@media (max-width:900px) {
+@media (max-width: 900px) {
   .services .boxes {
-   flex-direction: column;
+    flex-direction: column;
   }
 }
 
 @media (max-width: 580px) {
-  .home .banner  h1 {
+  .home .banner h1 {
     font-size: 4em;
     letter-spacing: 0px;
     padding: 0 20px;
@@ -291,7 +281,7 @@ textarea {
   }
 }
 
-@media (max-width:579px) {
+@media (max-width: 579px) {
   .home .banner .slogan {
     font-size: 15px;
     letter-spacing: 2px;

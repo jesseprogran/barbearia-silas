@@ -22,14 +22,19 @@
   background-attachment: fixed;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .nav {
   display: flex;
   justify-content:center;
 } 
 
 .nav ul li {
-  display: block;
-  margin-left: 150px;
+  display: flex;
+  margin-left: 10px;
 }
 
 ul {
@@ -40,16 +45,15 @@ ul {
 a {
   display: block;
   color: rgb(4, 4, 4);
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bolder;
   text-decoration: none;
-  padding: 10px 20px 10px 20px;
-  letter-spacing: 4px;
+  padding: 20px;
+  letter-spacing: 2px;
 }
 
 a:hover {
   display: block;
-  border-bottom: 2px solid rgb(204, 135, 135);
   color: rgb(252, 249, 248);
   
 }
@@ -68,8 +72,8 @@ a:hover {
 }
 
 .home .banner h1 {
-  margin-top: -150px;
-  font-size: 120px;
+  margin-top: -100px;
+  font-size: 117px;
   font-weight: bolder;
 }
 
@@ -89,17 +93,14 @@ a:hover {
 img {
   width: 70px;
 }
-.maquina {
-  width: 27px;
-}
+  
 
-.bigode2 {
-  margin-top: 10px;
-  width: 180px;
-}
+/***** SERVIÇOS *****/
+
 
 .services {
-  padding: 100px 0;
+  overflow:hidden;
+  padding: 40px 0;
   text-align: center;
   background-image: url(https://conteudo.solutudo.com.br/wp-content/uploads/2020/01/BARBEARIA-ARACAJU-BARBEIRO-MESTRE.png);
 }
@@ -113,7 +114,15 @@ img {
 .services .boxes {
   display: flex;
   justify-content: space-between;
-  margin-top: 65px;
+  margin-top: 60px;
+}
+.maquina {
+  width: 27px;
+}
+
+.bigode2 {
+  margin-top: 10px;
+  width: 180px;
 }
 
 .services .box {
@@ -183,12 +192,11 @@ img {
 
 .agendamento {
   padding: 100px 0;
-  background-color: rgb(246, 194, 177);
-  height: 100vh;
+  background-color: rgb(246, 194, 177)
 }
 
 .agendamento h2 {
-  text-align: center;
+  margin-left: 45px;
   color: rgb(218, 98, 28);
   font-weight: 700;
   font-size: 70px;
@@ -196,23 +204,22 @@ img {
 }
 
 .agendamento img {
-  margin: 0 auto;
+  margin: 50px;
   display: block;
 }
 
 .agendamento form {
-  margin-top: 70px;
+  margin-top: 80px;
 }
 
 .agendamento .dados-pessoais {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-bottom: 20px;
 }
 
-.agendamento  .wrapper {
-  width: 100%;
-  margin-left: 100px;
+.wrapper {
+  margin-left: 50px;
 }
 
 
@@ -225,8 +232,7 @@ img {
 }
 
 .agendamento .dados-pessoais input,
-.agendamento .dados-pessoais select,
-.agendamento  textarea {
+.agendamento .dados-pessoais select {
   padding: 10px;
   outline: none;
   border: none;
@@ -234,9 +240,10 @@ img {
 }
 
 textarea {
-  width: 174vh;
-  height: 142px;
-  margin-top: 3px;
+  width: 118vh;
+  height: 22vh;
+  outline: none;
+  border: none;
 }
 
 .agendamento button {
@@ -245,7 +252,7 @@ textarea {
   padding: 15px 40px;
   border: none;
   margin-top: 10px;
-  margin-left: 100px;
+  margin-left: 50px;
   cursor: pointer;
   font-size: 15px;
   font-weight: bold;

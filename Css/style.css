@@ -267,6 +267,8 @@ textarea {
   background: #5e4f3c;
 }
 
+/**** RESPONSIVIDADE *****/
+
 
 @media (max-width:800px) {
   .nav {

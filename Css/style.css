@@ -99,6 +99,7 @@ img {
 
 
 .services {
+  display: flex;
   overflow:hidden;
   padding: 40px 0;
   text-align: center;
@@ -240,7 +241,7 @@ img {
 }
 
 textarea {
-  width: 118vh;
+  width: 93vh;
   height: 22vh;
   outline: none;
   border: none;
@@ -264,4 +265,33 @@ textarea {
 .agendamento button:hover {
   color: #ed972d;
   background: #5e4f3c;
+}
+
+
+@media (max-width:800px) {
+  .nav {
+    display: none;
+  }
+}
+
+@media (max-width:900px) {
+  .services .boxes {
+   flex-direction: column;
+  }
+}
+
+@media (max-width: 580px) {
+  .home .banner  h1 {
+    font-size: 4em;
+    letter-spacing: 0px;
+    padding: 0 20px;
+    text-align: center;
+  }
+}
+
+@media (max-width:579px) {
+  .home .banner .slogan {
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
 }
